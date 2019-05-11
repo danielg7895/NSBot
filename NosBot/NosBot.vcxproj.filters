@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\xHacking">
+      <UniqueIdentifier>{a97c0d5b-a4b6-4848-b20e-e1c31e73e4e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\xHacking">
+      <UniqueIdentifier>{d69459fb-5721-486f-a4f9-7e92c54856ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="xHacking\include\API.h">
+      <Filter>Header Files\xHacking</Filter>
+    </ClInclude>
+    <ClInclude Include="xHacking\include\Detour.h">
+      <Filter>Header Files\xHacking</Filter>
+    </ClInclude>
+    <ClInclude Include="xHacking\include\Detour_i.h">
+      <Filter>Header Files\xHacking</Filter>
+    </ClInclude>
+    <ClInclude Include="xHacking\include\Loader.h">
+      <Filter>Header Files\xHacking</Filter>
+    </ClInclude>
+    <ClInclude Include="xHacking\include\Memory.h">
+      <Filter>Header Files\xHacking</Filter>
+    </ClInclude>
+    <ClInclude Include="xHacking\include\Remote.h">
+      <Filter>Header Files\xHacking</Filter>
+    </ClInclude>
+    <ClInclude Include="xHacking\include\Utilities.h">
+      <Filter>Header Files\xHacking</Filter>
+    </ClInclude>
+    <ClInclude Include="xHacking\include\xHacking.h">
+      <Filter>Header Files\xHacking</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NosCrypto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sha512.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tools.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="bot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="xHacking\src\Detour.cpp">
+      <Filter>Source Files\xHacking</Filter>
+    </ClCompile>
+    <ClCompile Include="xHacking\src\Detour64.cpp">
+      <Filter>Source Files\xHacking</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files\xHacking</Filter>
+    </ClCompile>
+    <ClCompile Include="xHacking\src\Loader.cpp">
+      <Filter>Source Files\xHacking</Filter>
+    </ClCompile>
+    <ClCompile Include="xHacking\src\Memory.cpp">
+      <Filter>Source Files\xHacking</Filter>
+    </ClCompile>
+    <ClCompile Include="xHacking\src\Remote.cpp">
+      <Filter>Source Files\xHacking</Filter>
+    </ClCompile>
+    <ClCompile Include="xHacking\src\Utilities.cpp">
+      <Filter>Source Files\xHacking</Filter>
+    </ClCompile>
+    <ClCompile Include="xHacking\src\xHacking.cpp">
+      <Filter>Source Files\xHacking</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NosCrypto.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nostale_sockets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sha512.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tools.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="bot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
